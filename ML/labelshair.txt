@@ -1,0 +1,2 @@
+0 Hairloss
+1 No hairloss

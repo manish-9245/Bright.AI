@@ -1,0 +1,157 @@
+#header {
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    padding: 15px 0;
+    background: rgba(255, 255, 255, 0.95);
+  }
+  
+  #header.header-transparent {
+    background: #eff2f8;
+  }
+  
+  #header.header-scrolled {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #header .logo h1 {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  
+  #header .logo h1 a, #header .logo h1 a:hover {
+    color: #5777ba;
+    text-decoration: none;
+  }
+  
+  #header .logo img {
+    margin: 0;
+    max-height: 40px;
+  }
+
+
+.navbar {
+    padding: 0;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navbar li {
+    position: relative;
+  }
+  
+  .navbar a, .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    color: #47536e;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+  
+  .navbar a i, .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+  
+  .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+    color: #5777ba;
+  }
+  
+  .navbar .getstarted {
+    background: #5777ba;
+    color: #fff;
+    padding: 12px 25px;
+    margin-left: 30px;
+    color: #fff;
+    line-height: 1;
+    border-radius: 50px;
+  }
+  
+  .navbar .getstarted:hover {
+    background: #748ec6;
+    color: #fff;
+  }
+
+  .mobile-nav-toggle {
+    color: #47536e;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    line-height: 0;
+    transition: 0.5s;
+  }
+  
+  .mobile-nav-toggle.bi-x {
+    color: #fff;
+  }
+  
+  @media (max-width: 991px) {
+    .mobile-nav-toggle {
+      display: block;
+    }
+    .navbar ul {
+      display: none;
+    }
+  }
+  
+  .navbar-mobile {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(51, 60, 79, 0.9);
+    transition: 0.3s;
+    z-index: 999;
+  }
+  
+  .navbar-mobile .mobile-nav-toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  
+  .navbar-mobile ul {
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    padding: 10px 0;
+    border-radius: 6px;
+    background-color: #fff;
+    overflow-y: auto;
+    transition: 0.3s;
+  }
+  
+  .navbar-mobile a {
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #47536e;
+  }
+  
+  .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+    color: #5777ba;
+  }
+  
+  .navbar-mobile .getstarted {
+    margin: 15px;
+  }
+  

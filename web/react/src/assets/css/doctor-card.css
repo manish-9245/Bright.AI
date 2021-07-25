@@ -1,0 +1,69 @@
+.doctor-card {
+    box-sizing: content-box;
+    padding: 30px 30px 30px 60px;
+    margin: 30px 10px 30px 50px;
+    min-height: 200px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
+    position: relative;
+    background: #fff;
+  }
+  
+  .doctor-card .doctor-img {
+    width: 90px;
+    border-radius: 10px;
+    border: 6px solid #fff;
+    position: absolute;
+    left: -45px;
+  }
+  
+  .doctor-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+  }
+  
+  .doctor-card h4 {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+  }
+  
+  .doctor-card .quote-icon-left, .doctor-card .quote-icon-right {
+    color: #e8ecf5;
+    font-size: 26px;
+  }
+  
+  .doctor-card .quote-icon-left {
+    display: inline-block;
+    left: -5px;
+    position: relative;
+  }
+  
+  .doctor-card .quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .doctor-card p {
+    font-style: italic;
+    margin: 15px auto 15px auto;
+  }
+
+  .doctor-card .doctor-details {
+    align-items: center;
+  }
+
+  .doctor-card-footer {
+      padding-top: 10px;
+  }
+  
+
+  .doctor-details-item {
+    flex-basis: 33.3%;
+  }
+  .doctor-details-item:not(:last-child){
+      border-right: 1px solid #ccc;
+  }

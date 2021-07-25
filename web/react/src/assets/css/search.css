@@ -1,0 +1,65 @@
+.search-doctors {
+    padding: 50px 0;
+    background: #eff2f8;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .search-doctors h4 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    color: #47536e;
+  }
+  
+  .search-doctors form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  input {
+   border: 0;
+  }
+
+  input:focus {
+    outline: none;
+   }
+
+  .search-doctors form input[type="email"] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+  }
+  
+  .search-doctors form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #5777ba;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+ .search-doctors form input[type="submit"]:hover {
+    background: #415f9d;
+  }
+
+  /* doctors-list */
+
+  .doctors-list{
+      margin-top: 50px;
+  }

@@ -1,0 +1,20 @@
+.doctor-profile .jumbotron{
+    padding: 50px 0;
+    background: #eff2f8;
+    color: #5777ba;
+}
+
+.doctor-profile .doctor-img {
+    display:inline-block;
+    border-radius: 100%;
+    border: 5px solid #5777ba;
+    width: 200px;
+    height: 200px;
+}
+
+.subheading {
+    color:#5777ba;
+}
+.about-section   {
+padding: 50px 0;
+}
